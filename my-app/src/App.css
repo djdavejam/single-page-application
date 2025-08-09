@@ -1,0 +1,55 @@
+.App {
+  max-width: 500px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.form-container,
+.project-list {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+}
+
+input, textarea {
+  display: block;
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+
+.project-card {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  border-radius: 6px;
+}
+
+.project-image-placeholder {
+  width: 50px;
+  height: 50px;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
